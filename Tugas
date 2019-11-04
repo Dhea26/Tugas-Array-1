@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+int angka[6];
+int a,hasil=0;
+int i;
+for (i=0; i<6; i++){
+cout<<"Input angka ke-"<< (i+1)<< "=";
+cin>>angka[i];
+}
+for (a=0; a<6; ++a){
+hasil+=angka[a];
+cout<<endl;
+cout<<"Hasil ke-"<< a << "adalah=" <<hasil<<endl;
+}
+cout<<endl<<"Jumlah angka = "<<hasil<<endl;
+return 0;
+}
